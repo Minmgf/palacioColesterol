@@ -6,3 +6,5 @@ TENER INSTALADO BUN PARA PODER EJECUTAR
 # Comands to run
   #bun install  
   #bun dev
+
+
