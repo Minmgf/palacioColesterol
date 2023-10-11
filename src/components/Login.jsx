@@ -1,22 +1,22 @@
-import './Login.css'
+import '../index.css'
 
 const Login = () => {
   return (
     <div id='Login' className='bg-gray-800'>
         <div className="[grid-area:form] w-full h-screen font-kavoon  flex flex-col justify-center items-center">
               
-        <div className=' text-white w-96 '>
+        <div className='text-white w-96'>
             <h1 className='text-2xl font-semibold text-center'>PALACIO DEL COLESTEROL</h1> 
-            <p className='font-medium text-lg text-center text-gray-400 '>Por favor ingresa tus datos</p>
+            <p className='text-lg font-medium text-center text-gray-400 '>Por favor ingresa tus datos</p>
             <div className='mt-3'>
                 <div>
                     <label htmlFor="direccion" className='text-lg font-medium'>Direccion:</label>
-                    <input type="text"  id="direccion" className='w-full border-2 border-gray-400 rounded-xl p-2 mt-1' 
+                    <input type="text"  id="direccion" className='w-full p-2 mt-1 border-2 border-gray-400 rounded-xl' 
                     placeholder='Ingresa tu Direccion' />
                 </div>
                 <div>
                     <label htmlFor="telefono" className='text-lg font-medium'>Telefono:</label>
-                    <input type="text"  id="telefono" className='w-full border-2 border-gray-400 rounded-xl p-2 mt-1' 
+                    <input type="text"  id="telefono" className='w-full p-2 mt-1 border-2 border-gray-400 rounded-xl' 
                     placeholder='Ingresa tu Telefono' />
                 </div>
                 <div>
@@ -25,7 +25,7 @@ const Login = () => {
                         <label htmlFor="promos">Acepto recibir promociones via WhatsApp</label>
                     </div>
                 </div>
-                <div className='mt-3 flex flex-col gap-y-4 items-center'>
+                <div className='flex flex-col items-center mt-3 gap-y-4'>
                     <button className=' px-20 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transition-all [background-color:#D9D9D9] text-gray-600 text-lg font-bold py-3 rounded-xl'>A ordenar!!</button>
 
 
@@ -46,10 +46,10 @@ const Login = () => {
         </div>
 
 
-
         <div className="[grid-area:imgLogin] bg-loginImg bg-no-repeat bg-cover bg-center opacity-60" />
     </div>
   )
 }
+
 
 export default Login

@@ -11,9 +11,13 @@ export default {
         'loginImg': "url('../src/assets/img/loginImg.jpg')"
       },
 
+      headerImage: {
+        'headerImg' : "url('../src/assets/img/header.png')"
+      },
+
       fontFamily: {
         'kavoon' : ['Kavoon', 'cursive'],
-        'lilita one' : ['Lilita One', 'cursive']
+        'lilitaOne' : ['Lilita One', 'cursive']
       }
 
     },

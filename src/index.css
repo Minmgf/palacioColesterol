@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
+#Login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "form imgLogin";
+}
+
+#navBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "menu title"
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-areas: "info imgInfo"
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-template-areas: "title links"
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
