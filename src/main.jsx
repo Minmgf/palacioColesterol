@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
-import Login from '../src/components/Login'
-import Index from './pages/index'
+import App from './App'
 import './index.css'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Index/>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
 )

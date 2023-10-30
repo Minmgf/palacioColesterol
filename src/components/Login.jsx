@@ -1,4 +1,5 @@
 import '../index.css'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -26,7 +27,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div className='flex flex-col items-center mt-3 gap-y-4'>
-                    <button className=' px-20 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transition-all [background-color:#D9D9D9] text-gray-600 text-lg font-bold py-3 rounded-xl'>A ordenar!!</button>
+                    <Link to="/home" className=' px-20 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transition-all [background-color:#D9D9D9] text-gray-600 text-lg font-bold py-3 rounded-xl'>A ordenar!!</Link>
 
 
                     <button className=' px-5 flex items-center justify-center gap-2 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transition-all bg-green-500 text-white-600 text-lg font-bold py-3 rounded-xl'>
