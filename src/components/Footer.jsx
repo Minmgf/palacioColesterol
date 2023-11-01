@@ -42,7 +42,7 @@ const Footer = () => {
 
         <div className='flex pb-8 gap-36'>
             <a href='#' className='text-3xl text-white'>Restaurantes</a> 
-            <a href='#' className='text-3xl text-white'>Contacto</a> 
+            <a href='/product' className='text-3xl text-white'>Contacto</a> 
         </div>
         
         <div className='flex gap-44'>   
