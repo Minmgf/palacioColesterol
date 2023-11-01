@@ -11,22 +11,16 @@ Este proyecto es una aplicación web llamada "Palacio del Colesterol" que utiliz
 -Interfaz de usuario atractiva y fácil de usar gracias a Tailwind CSS.
 -Desarrollado de forma eficiente con Vite para una carga rápida de la aplicación.
 
-# Screenshots
+# Algunas Screenshots
 
+# Login
 <p align="center">
   <img src="./readme/login.png" alt="Login Demo image" />
 </p>
 
+# Index
 <p align="center">
   <img src="./readme/index.png" alt="Index Demo image" />
-</p>
-
-<p align="center">
-  <img src="./readme/about_us.png" alt="About Us Demo image" />
-</p>
-
-<p align="center">
-  <img src="./readme/products.png" alt="Products Demo image" />
 </p>
 
 
@@ -40,5 +34,5 @@ Este proyecto es una aplicación web llamada "Palacio del Colesterol" que utiliz
 
 - [Minmgf](https://github.com/Minmgf)
 - [FlacoAFK](https://github.com/FlacoAfk)
-- [Yate]()
+- [Yate](https://github.com/David9604)
 
