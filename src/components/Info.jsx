@@ -2,11 +2,11 @@ import BackgroundFood from '../assets/img/food2.jpg'
 
 const Info = () => {
     return (
-        <div className='grid w-full grid-cols-2 px-20 py-10 text-white bg-center bg-no-repeat bg-cover cellphone:max-lg:px-10 min-h-fit max-h-auto' style={{ backgroundImage: `url(${BackgroundFood})` }}>
+        <div className='grid w-full grid-cols-2 px-20 py-20 text-white bg-center bg-no-repeat bg-cover cellphone:max-lg:px-10 min-h-fit max-h-auto' style={{ backgroundImage: `url(${BackgroundFood})` }}>
             <div className="w-full pt-5 min-h-auto cellphone:max-lg:col-span-2 min-w-screen max-h-fit" style={{ backgroundColor: 'rgba(27, 27, 27, 0.90)' }}>
                 <div className='grid w-full gap-10 grid-rows-[30%_minmax(70%,_1fr)] px-10 py-16 cellphone:max-sm:px-5 cellphone:max-sm:py-10'>
                     <h1 className='text-6xl p-0 m-0 text-center cellphone:max-lg:text-5xl font-lilitaOne'>Contáctenos</h1>
-                    <p className='text-lg text-justify text-gray-400'>En El Palacio del Colesterol, valoramos tu opinión y estamos aquí para responder a todas tus preguntas, comentarios y sugerencias. No dudes en ponerte en contacto con nosotros.</p>
+                    <p className='text-justify text-gray-400 text-xl'>En El Palacio del Colesterol, valoramos tu opinión y estamos aquí para responder a todas tus preguntas, comentarios y sugerencias. No dudes en ponerte en contacto con nosotros.</p>
                 </div>
                 <div className='grid justify-center grid-cols-2 grid-rows-2 pt-5 text-center divide-y-2 divide-slate-700 cellphone:max-sm:grid-rows-3 w-100'>
                     <div className='grid h-auto col-span-2 grid-rows-3 py-5 w-100'>
