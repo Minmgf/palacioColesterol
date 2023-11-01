@@ -18,7 +18,11 @@ export default {
       fontFamily: {
         'kavoon' : ['Kavoon', 'cursive'],
         'lilitaOne' : ['Lilita One', 'cursive']
-      }
+      },
+
+      screens: {
+        'cellphone': '320px'
+      },
 
     },
   },

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const NavBar = () => {
   return (
     <div id='navBar' className='w-full h-16 [background-color:#1A1B1D]'>
