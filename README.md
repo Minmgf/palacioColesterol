@@ -5,11 +5,11 @@ Este proyecto es una aplicación web llamada "Palacio del Colesterol" que utiliz
 
 # Características
 
--[Muestra una lista de recetas de alimentos ricos en grasas y calorías.]
--[Permite a los usuarios buscar recetas por nombre.]
--[Proporciona detalles de cada receta, incluyendo ingredientes y pasos de preparación.]
--[Interfaz de usuario atractiva y fácil de usar gracias a Tailwind CSS.]
--[Desarrollado de forma eficiente con Vite para una carga rápida de la aplicación.]
+- [Muestra una lista de recetas de alimentos ricos en grasas y calorías.]
+- [Permite a los usuarios buscar recetas por nombre.]
+- [Proporciona detalles de cada receta, incluyendo ingredientes y pasos de preparación.]
+- [Interfaz de usuario atractiva y fácil de usar gracias a Tailwind CSS.]
+- [Desarrollado de forma eficiente con Vite para una carga rápida de la aplicación.]
 
 # Algunas Screenshots
 
