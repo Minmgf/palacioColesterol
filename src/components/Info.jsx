@@ -5,8 +5,8 @@ const Info = () => {
         <div className='grid w-full grid-cols-2 px-20 py-20 text-white bg-center bg-no-repeat bg-cover cellphone:max-lg:px-10 min-h-fit max-h-auto' style={{ backgroundImage: `url(${BackgroundFood})` }}>
             <div className="w-full pt-5 min-h-auto cellphone:max-lg:col-span-2 min-w-screen max-h-fit" style={{ backgroundColor: 'rgba(27, 27, 27, 0.90)' }}>
                 <div className='grid w-full gap-10 grid-rows-[30%_minmax(70%,_1fr)] px-10 py-16 cellphone:max-sm:px-5 cellphone:max-sm:py-10'>
-                    <h1 className='text-6xl p-0 m-0 text-center cellphone:max-lg:text-5xl font-lilitaOne'>Contáctenos</h1>
-                    <p className='text-justify text-gray-400 text-xl'>En El Palacio del Colesterol, valoramos tu opinión y estamos aquí para responder a todas tus preguntas, comentarios y sugerencias. No dudes en ponerte en contacto con nosotros.</p>
+                    <h1 className='p-0 m-0 text-6xl text-center cellphone:max-lg:text-5xl font-lilitaOne'>Contáctenos</h1>
+                    <p className='text-xl text-justify text-gray-400'>En El Palacio del Colesterol, valoramos tu opinión y estamos aquí para responder a todas tus preguntas, comentarios y sugerencias. No dudes en ponerte en contacto con nosotros.</p>
                 </div>
                 <div className='grid justify-center grid-cols-2 grid-rows-2 pt-5 text-center divide-y-2 divide-slate-700 cellphone:max-sm:grid-rows-3 w-100'>
                     <div className='grid h-auto col-span-2 grid-rows-3 py-5 w-100'>
@@ -18,7 +18,7 @@ const Info = () => {
                         <p className='text-xl font-bold tracking-widest text-gray-400'>TELEFONO</p>
                         <p className='text-lg'>8734737</p>
                     </div>
-                    <div className='grid h-auto grid-rows-3 py-5 cellphone:max-sm:border-0 border-r cellphone:max-sm:col-span-2 w-100'>
+                    <div className='grid h-auto grid-rows-3 py-5 border-r cellphone:max-sm:border-0 cellphone:max-sm:col-span-2 w-100'>
                         <div className='grid justify-center w-100'>
                             <svg className="w-10 h-10 stroke-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
@@ -27,9 +27,14 @@ const Info = () => {
                         <p className='text-xl font-bold tracking-widest text-gray-400'>CORREO</p>
                         <p className='text-lg'>palacio.colesterol@email.com</p>
                     </div>
-                    <div className='grid h-auto grid-rows-2 py-5 cellphone:max-sm:border-0 border-l cellphone:max-sm:col-span-2 w-100'>
+                    <div className='grid h-auto grid-rows-2 py-5 border-l cellphone:max-sm:border-0 cellphone:max-sm:col-span-2 w-100'>
                         <p className='text-xl font-bold tracking-widest text-gray-400'>SÍGUENOS</p>
-                        <div className='grid grid-cols-2 justify-center px-10 w-100'>
+                        <div className='grid justify-center grid-cols-2 px-10 w-100'>
+                            <a href="#" className='grid justify-center'>
+                                <svg className="w-10 h-10 stroke-2" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M58.7273 0C63.8486 0 68 4.15155 68 9.27273V58.7273C68 63.8486 63.8486 68 58.7273 68H9.27273C4.15155 68 0 63.8486 0 58.7273V9.27273C0 4.15155 4.15155 0 9.27273 0H58.7273ZM58.7273 6.18182C60.4344 6.18182 61.8182 7.56568 61.8182 9.27273V58.7273C61.8182 60.4344 60.4344 61.8182 58.7273 61.8182H43.2727V40.1815H49.6901C51.0204 40.1815 52.2014 39.3303 52.6224 38.0679L53.9917 33.9601C54.4921 32.4589 53.3747 30.9088 51.7925 30.9088H43.2727V24.727C43.2727 23.1816 44.8182 21.6361 46.3636 21.6361H52.5455C54.2526 21.6361 55.6364 20.2523 55.6364 18.5452V16.4249C55.6364 15.4264 54.9987 14.5313 54.0331 14.2765C49.9815 13.2073 46.3636 13.2073 46.3636 13.2073C38.6364 13.2073 34 18.5452 34 23.1816V30.9088H27.8182C26.1111 30.9088 24.7273 32.2926 24.7273 33.9997V37.0906C24.7273 38.7977 26.1111 40.1815 27.8182 40.1815H34V61.8182H9.27273C7.56568 61.8182 6.18182 60.4344 6.18182 58.7273V9.27273C6.18182 7.56568 7.56568 6.18182 9.27273 6.18182H58.7273Z" fill="white" />
+                                </svg>
+                            </a>
                             <a href="#" className='grid justify-center'>
                                 <svg className="w-10 h-10 stroke-2" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_i_3_81)">
@@ -49,11 +54,6 @@ const Info = () => {
                                             <feBlend mode="normal" in2="shape" result="effect1_innerShadow_3_81" />
                                         </filter>
                                     </defs>
-                                </svg>
-                            </a>
-                            <a href="#" className='grid justify-center'>
-                                <svg className="w-10 h-10 stroke-2" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M58.7273 0C63.8486 0 68 4.15155 68 9.27273V58.7273C68 63.8486 63.8486 68 58.7273 68H9.27273C4.15155 68 0 63.8486 0 58.7273V9.27273C0 4.15155 4.15155 0 9.27273 0H58.7273ZM58.7273 6.18182C60.4344 6.18182 61.8182 7.56568 61.8182 9.27273V58.7273C61.8182 60.4344 60.4344 61.8182 58.7273 61.8182H43.2727V40.1815H49.6901C51.0204 40.1815 52.2014 39.3303 52.6224 38.0679L53.9917 33.9601C54.4921 32.4589 53.3747 30.9088 51.7925 30.9088H43.2727V24.727C43.2727 23.1816 44.8182 21.6361 46.3636 21.6361H52.5455C54.2526 21.6361 55.6364 20.2523 55.6364 18.5452V16.4249C55.6364 15.4264 54.9987 14.5313 54.0331 14.2765C49.9815 13.2073 46.3636 13.2073 46.3636 13.2073C38.6364 13.2073 34 18.5452 34 23.1816V30.9088H27.8182C26.1111 30.9088 24.7273 32.2926 24.7273 33.9997V37.0906C24.7273 38.7977 26.1111 40.1815 27.8182 40.1815H34V61.8182H9.27273C7.56568 61.8182 6.18182 60.4344 6.18182 58.7273V9.27273C6.18182 7.56568 7.56568 6.18182 9.27273 6.18182H58.7273Z" fill="white" />
                                 </svg>
                             </a>
                         </div>

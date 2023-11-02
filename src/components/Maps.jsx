@@ -72,12 +72,12 @@ const Maps = () => {
                   </MarkerF>
                 ))
               }
-              <div className='flex-col flex py-16 px-10 h-[calc(100%-50%)] cellphone:max-sm:px-5 cellphone:max-sm:justify-center text-white absolute w-[40%] cellphone:max-sm:w-[80%] sm:max-md:w-[60%] md:max-lg:w-[50%] cellphone:max-sm:inset-x-1/5 cellphone:max-sm:bottom-1/3 inset-y-[8rem] right-10' style={{ backgroundColor: 'rgba(27, 27, 27, 0.90)' }}>
+              <div className='flex-col flex py-16 px-10 h-[calc(100%-50%)] cellphone:max-sm:px-5 cellphone:max-sm:justify-center text-white absolute w-[40%] cellphone:max-sm:w-[80%] sm:max-md:w-[60%] md:max-lg:w-[50%] cellphone:max-sm:right-1/5 cellphone:max-sm:left-1/5 cellphone:max-sm:inset-x-1/5 cellphone:max-sm:bottom-1/3 inset-y-[8rem] right-10' style={{ backgroundColor: 'rgba(27, 27, 27, 0.90)' }}>
                 <h1 className='w-full text-6xl text-right font-lilitaOne cellphone:max-sm:text-5xl'>Sedes - Palacio del Colesterol</h1>
-                <div className='flex-col py-2 h-full flex justify-center'>
-                  <p className='text-clip overflow-hidden w-full py-1 text-right text-2xl cellphone:max-lg:text-1xl'>Neiva - Huila</p>
-                  <p className='text-clip overflow-hidden w-full py-1 text-right text-2xl cellphone:max-lg:text-1xl'>32224995432</p>
-                  <p className='text-clip overflow-hidden w-full py-1 text-right text-2xl cellphone:max-lg:text-1xl'>palacio.colesterol@email.com</p>
+                <div className='flex flex-col justify-center h-full py-2'>
+                  <p className='w-full py-1 overflow-hidden text-2xl text-right text-clip cellphone:max-lg:text-1xl'>Neiva - Huila</p>
+                  <p className='w-full py-1 overflow-hidden text-2xl text-right text-clip cellphone:max-lg:text-1xl'>32224995432</p>
+                  <p className='w-full py-1 overflow-hidden text-2xl text-right text-clip cellphone:max-lg:text-1xl'>palacio.colesterol@email.com</p>
                 </div>
               </div>
             </GoogleMap>
