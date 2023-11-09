@@ -3,8 +3,9 @@ import headerImage from '../assets/img/header.png'
 
 const Header = () => {
   return (
-    <div className="font-lilitaOne [background-color:#1E1E1E]">
-      <img src={headerImage} className='opacity-80 hover:opacity'  />
+    <div className='bg-no-repeat bg-cover ' style={{ backgroundImage: `url(${headerImage})` }}>
+
+    <img src={headerImage} className='opacity-0 hover:opacity'  />
     </div>
   )
 }
