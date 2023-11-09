@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div id='footer' className='w-full [background-color:#5F4C38] font-lilitaOne py-24'>
+    <div id='footer' className='w-full [background-color:#5F4C38] font-lilitaOne py-10'>
       <div className="[grid-area:title] flex flex-col text-orange-500 items-center justify-center">
         <h1 className='text-6xl text-center'>El palacio del colesterol </h1>
-        <h1 className='pt-8 text-xl text-white'>Siguenos en nuestras redes:</h1>
+        <h1 className='text-white t-xl pt-'>Siguenos en nuestras redes:</h1>
         <div className='flex '>
             <a href="">
                 <svg width="42" className='px-2' height="32" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,15 +37,9 @@ const Footer = () => {
 
 
         </div>
-      </div>
-      <div className="[grid-area:links] ">
 
-        <div className='flex pb-8 gap-36'>
-            <a href='#' className='text-3xl text-white'>Restaurantes</a> 
-            <a href='/product' className='text-3xl text-white'>Contacto</a> 
-        </div>
         
-        <div className='flex gap-44'>   
+        <div className='flex pt-2 gap-44'>   
             <a href='#' className='[color:#B78A59] pr-8 text-3xl text-white'>Nosotros</a> 
             <a href='#' className='[color:#B78A59] text-3xl text-white'>Contáctenos</a> 
         </div>
@@ -54,8 +48,6 @@ const Footer = () => {
             <a href='#' className='[color:#B78A59] text-3xl text-white'>Trabaja con nosotros</a> 
             <a href='#' className='[color:#B78A59] text-3xl text-white'>Preguntas frecuentes</a> 
         </div>
-
-
 
       </div>
 

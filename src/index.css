@@ -21,8 +21,8 @@
 
 #footer{
     display: grid;
-    grid-template-columns: 40% 1fr;
-    grid-template-areas: "title links"
+    grid-template-columns: 100% ;
+    grid-template-areas: "title"
 }
 
 @tailwind base;
