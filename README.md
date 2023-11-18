@@ -33,6 +33,4 @@ Index
 ## Realizado por:
 
 - [Minmgf](https://github.com/Minmgf)
-- [FlacoAFK](https://github.com/FlacoAfk)
-- [Yate](https://github.com/David9604)
 
