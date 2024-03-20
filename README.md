@@ -1,38 +1,8 @@
-# Palacio del Colesterol
+# React + Vite
 
-Live Demo: https://palaciocolesterol.netlify.app
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Este proyecto es una aplicación web llamada "Palacio del Colesterol" que utiliza React, Tailwind CSS y Vite para mostrar información relacionada de una tienda de comida deliciosa pero poco saludables.
+Currently, two official plugins are available:
 
-
-# Características
-
-- Muestra una lista de recetas de alimentos ricos en grasas y calorías.
-- Permite a los usuarios buscar recetas por nombre.
-- Proporciona detalles de cada receta, incluyendo ingredientes y pasos de preparación.
-- Interfaz de usuario atractiva y fácil de usar gracias a Tailwind CSS.
-- Desarrollado de forma eficiente con Vite para una carga rápida de la aplicación.
-
-# Algunas Screenshots
-
-Login
-<p align="center">
-  <img src="./readme/login.png" alt="Login Demo image" />
-</p>
-
-Index
-<p align="center">
-  <img src="./readme/index.png" alt="Index Demo image" />
-</p>
-
-
-## Instalacion y despliegue
-
-`npm i` Para instalar todos los paquetes que el proyecto necesita
-`npm run dev` Para desplegar 
-
-
-## Realizado por:
-
-- [Minmgf](https://github.com/Minmgf)
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

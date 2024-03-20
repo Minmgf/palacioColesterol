@@ -1,18 +1,22 @@
-import NavBar from "../components/NavBar"
-import Header from "../components/Header"
-import Comidas from "../components/Comidas"
-import Us from "../components/Us"
-import Footer from "../components/Footer"
+import React from 'react'
+import NavBar from '../components/NavBar'
+import Header from "../components/Header";
+import Comidas from "../components/Comidas";
+import QuienesSomos from "../components/QuienesSomos";
+import Footer from "../components/Footer";
+import Banner from '../components/Banner';
 
 const index = () => {
   return (
-    <div className="[background-color:#1E1E1E]  w-full h-full">
-        <NavBar/>
-        <Header/>
-        <Comidas/>
-        <Us/>
-        <Footer/>
-
+    <div>
+      
+      <NavBar />
+      <Banner/>
+      <Header/>
+      <Comidas/>
+      <QuienesSomos/>
+      <Footer/>
+      
     </div>
   )
 }

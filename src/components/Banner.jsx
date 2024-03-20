@@ -1,7 +1,7 @@
 import React from 'react'
-import headerImage from '../assets/img/header.png'
+import headerImage from '../assets/imgs/header.webp'
 
-const Header = () => {
+const Banner = () => {
   return (
     <div className='bg-no-repeat bg-cover ' style={{ backgroundImage: `url(${headerImage})` }}>
 
@@ -10,4 +10,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Banner

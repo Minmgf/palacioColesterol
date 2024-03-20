@@ -7,18 +7,12 @@ export default {
   theme: {
     extend: {
 
-      backgroundImage:{
-        'loginImg': "url('../src/assets/img/loginImg.jpg')"
-      },
-
-      headerImage: {
-        'headerImg' : "url('../src/assets/img/header.png')"
-      },
+ 
 
       fontFamily: {
         'kavoon' : ['Kavoon', 'cursive'],
         'lilitaOne' : ['Lilita One', 'cursive']
-      },
+      },  
 
       screens: {
         'cellphone': '320px'
