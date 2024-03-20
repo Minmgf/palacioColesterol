@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' py-16 font-lilitaOne [background-color:#5F4C38]'>
+    <div className=' py-16 font-lilitaOne [background-color:#5F4C38] w-full '>
       
         <h2 className='text-6xl text-center text-orange-500'> El palacio del colesterol </h2>
         <p className='text-lg text-center text-white'>Siguenos en nuestras redes:</p>
@@ -37,17 +37,17 @@ const Footer = () => {
             </a>
         </div>
 
-        <div className="flex flex-col justify-center w-full px-16 gap-x-14">
+        <div className="flex flex-col justify-between w-full px-6 ">
 
-            <div className="flex justify-center gap-4">
-                <a href='#' className='[color:#B78A59] pr-8 text-3xl text-white'>Nosotros</a> 
-                <a href='#' className='[color:#B78A59] text-3xl text-white'>Contáctenos</a> 
+            <div className="flex justify-around">
+                <a href='#' className='[color:#B78A59] text-3xl cellphone:text-lg md:text-2xl lg:text-3xl text-white'>Nosotros</a> 
+                <a href='#' className='[color:#B78A59] text-3xl cellphone:text-lg md:text-2xl lg:text-3xl text-white'>Contáctenos</a> 
             </div>
 
 
-            <div className="flex justify-center gap-4 ">
-                <a href='#' className='[color:#B78A59] text-3xl text-white'>Trabaja con nosotros</a> 
-                <a href='#' className='[color:#B78A59] text-3xl text-white'>Preguntas frecuentes</a> 
+            <div className="flex justify-around">
+                <a href='#' className='[color:#B78A59] text-3xl cellphone:text-lg md:text-2xl lg:text-3xl  text-white'>Trabaja con nosotros</a> 
+                <a href='#' className='[color:#B78A59] text-3xl cellphone:text-lg md:text-2xl lg:text-3xl  text-white'>Preguntas frecuentes</a> 
             </div>        
         </div>
     
