@@ -37,7 +37,7 @@ const Footer = () => {
             </a>
         </div>
 
-        <div className="flex flex-col justify-between w-full px-6 ">
+        <div className="flex flex-col w-full px-6 lg:px-32 xl:px-72 ">
 
             <div className="flex justify-around">
                 <a href='#' className='[color:#B78A59] text-3xl cellphone:text-lg md:text-2xl lg:text-3xl text-white'>Nosotros</a> 
