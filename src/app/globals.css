@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        background-color: #1E1E1E;
+    }
+}
+
+.NavLinks > *{
+    @apply hover:text-orange-400 active:scale-[.98] hover:border-white;
+
+}
+
+.hero{
+    @apply grid;
+    grid-template-columns: .4
+    fr .6fr;
+}
+
+.flying-button-parent button{
+    @apply px-8 py-2 mt-4 text-white rounded-full bg-primary
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-areas: "info imgInfo"
+}
+
+label{
+    @apply text-sm leading-tight text-gray-500;
+}
+
+label + input{
+    margin-top: -2px;
+}
+
+select,
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"]{
+    @apply block w-full mb-2 rounded-xl;
+    @apply p-2 bg-gray-100 border border-gray-300 ;
+}
+
+input[type="email" ]:disabled,
+input[type="password" ]:disabled,
+input[type="tel" ]:disabled,
+input[type="text" ]:disabled{
+    @apply text-gray-500 bg-gray-300 border-0 cursor-not-allowed ;
+}
+
+button, .button{
+    @apply flex justify-center w-full gap-2 font-semibold text-gray-700;
+    @apply px-6 py-2 border border-gray-300 rounded-xl;
+}
+button[type='submit'], .submit, button.primary{
+    @apply text-white border-primary bg-primary;
+}
+button[type='submit']:disabled, .submit:disabled{
+    @apply text-white bg-red-400 border-0 cursor-not-allowed;
+}
+
+div.tabs > *{
+    @apply bg-gray-300 rounded-full py-2 px-4
+}
+
+div.tabs > *.active{
+    @apply bg-primary text-white
+}

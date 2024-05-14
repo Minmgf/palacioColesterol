@@ -1,24 +1,28 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-
- 
+      colors: {
+        primary: "#fb923c",
+      },
 
       fontFamily: {
         'kavoon' : ['Kavoon', 'cursive'],
         'lilitaOne' : ['Lilita One', 'cursive']
-      },  
-
-      screens: {
-        'cellphone': '320px'
+      },
+      backgroundImage:{
+        'loginImg': "url('../src/assets/img/loginImg.jpg')"
       },
 
+      headerImage: {
+        'headerImg' : "url('/public/header.png')"
+      }
     },
   },
   plugins: [],
-}
+};
