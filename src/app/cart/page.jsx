@@ -40,14 +40,14 @@ export default function CartPage() {
                 <SectionHeaders mainHeader="Cart" />
             </div>
             <div className="grid grid-cols-2 gap-8 mt-8 ">
-                <div>
+                <div className="">
                     {cartProducts?.length === 0 && (
                         <div className="">
                             No items in cart
                         </div>
                     )}
                     {cartProducts?.length > 0 && cartProducts.map((product, index) => (
-                        <div className="flex items-center gap-4 py-4 border-b">
+                        <div className="flex items-center gap-4 py-4 px-2 border-b bg-gray-100 rounded-2xl mt-2 ">
                             <div className="w-24">
                                 <Image src={product.image} alt={""} width={240} height={240}/>
                             </div>
