@@ -5,9 +5,12 @@ import AddressInputs from "@/components/layout/AddressInputs";
 import SectionHeaders from "@/components/layout/SectionHeaders";
 import { useProfile } from "@/components/UseProfile";
 import Image from "next/image";
+import toast, { Toaster } from 'react-hot-toast';
 import { useContext, useEffect, useState } from "react";
 
+
 export default function CartPage() {
+    const notify = () => toast('Pedido ordenado.');
     const {cartProducts, removeCartProduct } = useContext(CartContext);
     const [address, setAddress] = useState({});
     const {data: profileData} = useProfile();
@@ -35,19 +38,19 @@ export default function CartPage() {
         total += cartProductPrice(p);
     }
     return(
-        <section className="mx-auto my-8 ">
+        <section className="max-w-6xl mx-auto my-8">
             <div className="text-center">
                 <SectionHeaders mainHeader="Cart" />
             </div>
             <div className="grid grid-cols-2 gap-8 mt-8 ">
-                <div className="">
+                <div className="text-white">
                     {cartProducts?.length === 0 && (
                         <div className="">
                             No items in cart
                         </div>
                     )}
                     {cartProducts?.length > 0 && cartProducts.map((product, index) => (
-                        <div className="flex items-center gap-4 py-4 px-2 border-b bg-gray-100 rounded-2xl mt-2 ">
+                        <div className="flex items-center gap-4 px-2 py-4 mt-2 bg-gray-100 border-b rounded-2xl ">
                             <div className="w-24">
                                 <Image src={product.image} alt={""} width={240} height={240}/>
                             </div>
@@ -95,7 +98,7 @@ export default function CartPage() {
                             addressProps={address}
                             setAddressProp={handleAddressChange}
                             />
-                        <button type="submit"> Pay ${total}</button>
+                        <button type="submit" onClick={notify}> Pay ${total}</button>
                     </form>
 
                 </div>

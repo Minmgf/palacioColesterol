@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div id='footer' className='w-full [background-color:#5F4C38] font-lilitaOne py-10'>
+    <div id='footer' className='mt-8 w-full [background-color:#5F4C38] font-lilitaOne py-10'>
       <div className="[grid-area:title] flex flex-col text-orange-500 items-center justify-center">
         <h1 className='text-6xl text-center'>El palacio del colesterol </h1>
         <h1 className='text-white t-xl pt-'>Siguenos en nuestras redes:</h1>

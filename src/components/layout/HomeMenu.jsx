@@ -11,7 +11,7 @@ export default function HomeMenu(){
     useEffect( () => {
         fetch('/api/menu-items').then(res => {
             res.json().then(menuItems => {
-                setBestSellers(menuItems.slice(-3));
+                setBestSellers(menuItems.slice(0, 3));
             });
         });
     }, []);
